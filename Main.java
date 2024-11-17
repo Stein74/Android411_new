@@ -11,8 +11,6 @@ public class Main {
 
 		printSquare(strQuantity);
 
-		//fff
-
 	}
 
 	public static void printSquare(byte strQuantity) {
