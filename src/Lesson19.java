@@ -9,7 +9,7 @@ public class Lesson19 {
 
         Scanner scanner = new Scanner(System.in);
 
-        String message = "Введите номер телефона. Завершение: -1: ";
+        String message = "Введите номер телефона. Завершение ввода: -1: ";
         Pattern pattern = Pattern.compile("\\+?[78]\\s?((\\(\\d{3}\\))|(\\d{3}))\\s?\\d{3}[\\s-]?\\d{2}[\\s-]?\\d{2}");
 
         while (true){
