@@ -4,12 +4,7 @@ public class Aspirant extends Student{
 
     @Override
     public void countScholarship(int avgGrad){
-        setScholarship(avgGrad == 5 ? 2000: 1800);
-    }
-
-    @Override
-    public void setScholarship(int scholarship) {
-        super.setScholarship(scholarship);
+        super.setScholarship(avgGrad == 5 ? 2000: 1800);
     }
 
     public Aspirant(String name) {
